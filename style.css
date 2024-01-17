@@ -11,9 +11,35 @@ img{
     float:right;
 }
 
-li
+/* example of descendant */
+ul li
 {
     color:brown;
+}
+
+ol li
+{
+    color:darkgoldenrod;
+}
+
+/* example of grouping selector */
+h2,
+h1{
+    color:darkred;
+}
+
+/* example of class selection */
+.subsection
+{
+    font-size: 1.5em;
+    color:rgb(177, 100, 100);
+}
+
+/* example of multiple classes */
+.subsection.ingredients
+{
+    text-decoration-line: underline;
+    
 }
 
 
