@@ -42,5 +42,9 @@ h1{
     
 }
 
-
+.centered
+{
+    width: 200px;
+    margin: auto;
+}
 
