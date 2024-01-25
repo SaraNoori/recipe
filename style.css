@@ -9,6 +9,8 @@ html{
 img{
     height: auto;
     float:right;
+    margin: 30px;
+    border: 5px solid coral;
 }
 
 /* example of descendant */
@@ -55,4 +57,9 @@ h1{
 {
     border: 3px solid coral;
     color: red;
+}
+
+.footer
+{
+    margin-top: 40em;
 }
